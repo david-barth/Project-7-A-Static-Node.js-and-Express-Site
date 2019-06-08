@@ -1,0 +1,18 @@
+extends layout.pug
+
+block content
+  article.grid-container.portfolio-intro
+    div
+
+      h1 What happens when GlADoS and the  matrix have a baby.
+
+      p.lead.text-light
+        | This is a view of all that I have done, all that I am doing and all that I will do. 
+
+  article.grid-container.portfolio-index
+    .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
+      each project, index in projects
+        .cell
+          a(href=`${project.live_link}`)
+            img.thumbnail(src=`/static/${project.image_urls[0]}`)
+            h5 #{project.project_name}

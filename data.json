@@ -1,0 +1,66 @@
+{
+    "projects" : [
+        {
+            "id" : 0,
+            "project_name": "Trump Quote Generator", 
+            "description": "A random quote generator programmed in basic Javascript.  Click to get a random Donald Trump quote!", 
+            "technologies": ["Vanilla Javascript", "HTML", "CSS"],  
+            "live_link": "https://david-barth.github.io/Project1/", 
+            "github_link": "https://github.com/david-barth/Project-1-Quote-Generator.git", 
+            "image_urls": ["images/Proj1_1.png", "images/Proj1_2.png", "images/Proj1_3.png"]
+        }, 
+        
+        {
+            "id" : 1,
+            "project_name": "Pagination via Javascript", 
+            "description": "A project that uses Javascript to divide a larger listing of students into succinct pages",
+            "technologies": ["Javascript", "HTML", "CSS"],  
+            "live_link": "https://david-barth.github.io/Project2/", 
+            "github_link": "https://github.com/david-barth/Project-2-Pagination-and-Content-Filter.git", 
+            "image_urls":  ["images/Proj2_1.png", "images/Proj2_2.png", "images/Proj2_3.png"]
+        }, 
+
+        {
+            "id" : 2,
+            "project_name": "Interactive Conference HTML Form", 
+            "description": "An HTML form for a web developer conference.  Interactive features are driven by Javascript", 
+            "technologies": ["Javascript", "HTML", "CSS"],  
+            "live_link": "https://david-barth.github.io/Project3/", 
+            "github_link": "https://github.com/david-barth/Project-3---Interactive-Webform.git", 
+            "image_urls": ["images/Proj3_1.png", "images/Proj3_2.png", "images/Proj3_3.png"]
+        }, 
+
+        {
+            "id" : 3,
+            "project_name": "Guess the Occult Word", 
+            "description": "3 chances to guess a random occult related word.  Are you up to the challenge in this JS object oriented game?", 
+            "technologies": ["Javascript", "HTML", "CSS"],  
+            "live_link": "https://david-barth.github.io/Project4/", 
+            "github_link": "https://github.com/david-barth/Project-4-OOP-Game-App.git", 
+            "image_urls": ["images/Proj4_1.png", "images/Proj4_2.png", "images/Proj4_3.png"]
+        }, 
+
+        {
+            "id" : 4,
+            "project_name": "AJAX: Employee Directory", 
+            "description": "A set of random employees fetched by AJAX and displayed onto the page", 
+            "technologies": ["Javascript", "AJAX", "HTML", "CSS"],  
+            "live_link": "https://david-barth.github.io/Project5/", 
+            "github_link": "https://github.com/david-barth/Project-5-Use-a-Public-API-to-Create-an-Employee-Directory.git", 
+            "image_urls": ["images/Proj5_1.png", "images/Proj5_2.png", "images/Proj5_3.png"]
+        }, 
+
+        {
+            "id" : 5,
+            "project_name": "Node Webscraper: Shirt Prices", 
+            "description": "Need T-shirt prices?  Use this Node.js powered webscraper to gather and compile T-shirt prices", 
+            "technologies": ["Javascript", "Node.js", "HTML", "CSS"],  
+            "live_link": "https://david-barth.github.io/Project6/", 
+            "github_link": "https://github.com/david-barth/Project-6-Build-a-Content-Scraper.git", 
+            "image_urls": ["images/Proj6_1.png", "images/Proj6_2.png", "images/Proj6_3.png"]
+        }
+    ]
+}
+
+
+
