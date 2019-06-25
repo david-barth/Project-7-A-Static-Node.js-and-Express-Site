@@ -13,6 +13,6 @@ block content
     .grid-x.grid-margin-x.small-up-2.medium-up-2.large-up-3
       each project, index in projects
         .cell
-          a(href=`${project.live_link}`)
+          a(href=`/project/${project.id+1}`)
             img.thumbnail(src=`/static/${project.image_urls[0]}`)
             h5 #{project.project_name}

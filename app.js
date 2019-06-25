@@ -29,7 +29,7 @@ app.get('/about', (req, res) => {
 });
 
 
-app.get('/project:id', (req, res, next) => {
+app.get('/project/:id', (req, res, next) => {
     const id = parseInt(req.params.id) - 1; 
     if (id <= 5 ) {
         const project = {
